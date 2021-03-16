@@ -1,0 +1,68 @@
+h1 {
+    font-family: 'Mukta';
+    font-size: 46px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 23PX;
+    margin-bottom: 33px;
+}
+
+.container-app {
+
+        border: transparent ;
+        max-width: 1200px;
+        border-radius: 12px;
+        margin:  20px auto;
+        padding: 20px 30px 600px 30px;
+        background-color:  transparent;
+}
+
+.col {text-align: center; 
+   
+    width: 217px;
+    height:217px;
+    border:   #9f9f9f 1px solid;
+    border-radius: 9px;
+    background-color:white;
+    margin-left: 5px;
+    margin-right: 5px;}
+
+.col:hover {
+    mask-border-outset: -30px;
+    outline: 110px solid #0d700f36  !important;
+    outline-offset:  -110px;  
+    position: relative;
+    height:217px;
+    width: 217px;
+
+    }
+
+.col:hover > .scritta  {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.scritta {
+   
+    display: none;
+    font-size: 22px;
+     width: 88%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    color:white;
+    font-family: 'Mukta' ;
+    font-weight:600;
+
+}
+
+#first { 
+  margin: 15px auto; }
+#third { 
+    margin: 14px auto;}
+#fourth{
+     margin: 16px auto;}
+#fifth { 
+    margin: 18px auto;}
+
